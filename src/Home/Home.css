@@ -1,0 +1,18 @@
+.carousel {
+    width: 100%;
+}
+
+
+.carousel-item,
+.carousel-inner,
+.carousel-img {
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-caption {
+    background-color: rgba(37, 39, 60, 0.71);
+    color: white !important;
+    border-radius: 40px;
+    box-shadow: 5px 5px 15px #464646;
+}

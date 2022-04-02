@@ -1,9 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Projects extends Component {
-    render() {
-        return (
-            <div>Projects</div>
-        )
-    }
+export default function Projects() {
+    return (
+        <div>Projects</div>
+    )
 }

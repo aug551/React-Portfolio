@@ -1,13 +1,14 @@
 import './App.css';
 import Navigation from './Navbar/Navigation';
-import Content from './Content/Content'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Contact from './Contact/Contact';
-import Projects from './Projects/Projects';
-import About from './About/About';
-import Home from './Home/Home';
+import Contact from './Contact';
+import Projects from './Projects';
+import About from './About';
+import Home from './Home';
+
 
 function App() {
+
   return (
     <div className="App">
       <BrowserRouter>
@@ -15,7 +16,7 @@ function App() {
           <Navigation />
         </nav>
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
